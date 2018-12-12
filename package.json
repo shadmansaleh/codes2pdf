@@ -1,24 +1,27 @@
 {
-  "name": "notebook-generator",
-  "version": "1.2.2",
-  "description": "Notebook generator for programming contest. (or \"something useful to share your code in pdf\")",
+  "name": "codes2pdf",
+  "version": "2",
+  "description": "Notebook generator for programming contest (or \"something useful to share your code in PDF\").",
   "main": "notebookgen.js",
   "scripts": {
     "test": "standard"
   },
   "keywords": [
     "pdf",
-    "notebook-icpc",
+    "notebook",
     "programming",
-    "contest"
+    "contest",
+    "acm",
+    "icpc",
+    "cheatsheet"
   ],
-  "author": "Manuel Pineda <manuel.felipe.pineda@gmail.com> (http://github.com/pin3da)",
+  "author": "Erfan Alimohammadi <erfan.aa@gmail.com> (http://github.com/Erfaniaa)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/pin3da/notebook-generator"
+    "url": "http://github.com/Erfaniaa/codes2pdf"
   },
   "bugs": {
-    "url": "http://github.com/pin3da/notebook-generator/issues"
+    "url": "http://github.com/Erfaniaa/codes2pdf/issues"
   },
   "license": "MPL-2.0",
   "dependencies": {
@@ -28,7 +31,7 @@
     "tmp": "0.0.33"
   },
   "bin": {
-    "notebook-generator": "./bin/notebookgen"
+    "codes2pdf": "./bin/notebookgen"
   },
   "devDependencies": {
     "standard": "^12.0.1"
