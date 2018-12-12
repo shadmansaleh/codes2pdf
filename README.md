@@ -54,7 +54,7 @@ Here you can find an example: https://github.com/pin3da/Programming-contest/blob
 The notebook generator will add your source code with syntax highlight, additionally
 you can add .tex files which will be rendered as latex code.
 
-## Notes:
+## Notes
 
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
