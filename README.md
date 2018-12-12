@@ -23,7 +23,7 @@ TeX Live for Windows:
 
 ## Use
 
-    Usage: codes2pdf <soruce_dir> [options]
+    Usage: codes2pdf <source_dir> [options]
 
     Auto generate a PDF notebook from your source codes
 
