@@ -1,4 +1,4 @@
-# notebook-generator
+# icpc-notebook-generator
 Auto generate notebook from your source codes (useful for ACM-ICPC).
 
 ## Dependencies
