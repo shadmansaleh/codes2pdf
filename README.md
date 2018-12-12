@@ -1,9 +1,9 @@
 # notebook-generator
-(Auto) generate notebooks from your source code. Useful for ACM-ICPC
+Auto generate notebook from your source codes (useful for ACM-ICPC).
 
 ## Dependencies
 
-This generator works in both linux and windows, so check how to install texlive in your OS.
+This generator works in both Linux and Windows, so check how to install texlive in your OS.
 
 texlive for linux:
 
@@ -41,7 +41,8 @@ The second one will create a 'notebook.pdf' file in the current directory.
 
 ## Example PDF
 
-Here you can find an example https://github.com/pin3da/Programming-contest/blob/master/codes/notebook.pdf
+Here you can find an example: https://github.com/pin3da/Programming-contest/blob/master/codes/notebook.pdf
+(The example file has two columns in each page but in the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
 
 ## Files
 
@@ -52,6 +53,4 @@ you can add .tex files which will be rendered as latex code.
 
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
-
-----
-[Manuel Pineda](https://github.com/pin3da/)
+- In the forked version of the repository, the generated notebook will have three columns in each page.
