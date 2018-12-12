@@ -1,5 +1,5 @@
-# icpc-notebook-generator
-Auto generate notebook from your source codes (useful for ACM-ICPC).
+# codes2pdf
+Auto generate a PDF notebook from your source codes (useful for ACM-ICPC)
 
 ## Dependencies
 
@@ -15,13 +15,13 @@ texlive for windows:
 
 ## Install
 
-    npm install -g notebook-generator
+    npm install -g codes2pdf
 
 ## Use
 
-    Usage: notebook-generator <soruce_dir> [options]
+    Usage: codes2pdf <soruce_dir> [options]
 
-    Auto generate notebooks from your source code
+    Auto generate a PDF notebook from your source codes
 
     Options:
 
@@ -35,7 +35,7 @@ texlive for windows:
 example:
 
     notebook-generator ./ /tmp/team_reference.pdf
-    notebook-generator ./ --author "Universidad Tecnologica de Pereira" --initials UTP
+    notebook-generator ./ --author "Shahid Beheshti University" --initials SBU
 
 The second one will create a 'notebook.pdf' file in the current directory.
 
