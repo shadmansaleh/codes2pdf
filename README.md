@@ -34,8 +34,8 @@ TeX Live for Windows:
 
 example:
 
-    notebook-generator ./ /tmp/team_reference.pdf
-    notebook-generator ./ --author "Shahid Beheshti University" --initials SBU
+    codes2pdf ./ /tmp/team_reference.pdf
+    codes2pdf ./ --author "Shahid Beheshti University" --initials SBU
 
 The second one will create a 'notebook.pdf' file in the current directory.
 
