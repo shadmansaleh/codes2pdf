@@ -1,5 +1,5 @@
 # codes2pdf
-Auto generate a PDF notebook from your source codes (useful for ACM-ICPC)
+Auto generate a PDF notebook from your source codes (useful for your ACM-ICPC cheatsheet)
 
 ## Dependencies
 
