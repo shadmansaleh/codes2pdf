@@ -17,6 +17,10 @@ TeX Live for Windows:
 
     npm install -g codes2pdf
 
+## Update
+
+    npm update -g codes2pdf
+
 ## Use
 
     Usage: codes2pdf <soruce_dir> [options]
