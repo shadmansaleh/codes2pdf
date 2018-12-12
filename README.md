@@ -3,13 +3,13 @@ Auto generate a PDF notebook from your source codes (useful for ACM-ICPC)
 
 ## Dependencies
 
-This generator works in both Linux and Windows, so check how to install texlive in your OS.
+This generator works in both Linux and Windows, so check how to install TeX Live in your OS.
 
-texlive for linux:
+TeX Live for linux:
 
     aptitude install texlive
 
-texlive for windows:
+TeX Live for Windows:
 
     download installer (install-tl-windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
 
