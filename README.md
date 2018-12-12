@@ -52,7 +52,7 @@ Here you can find an example: https://github.com/pin3da/Programming-contest/blob
 ## Files
 
 The notebook generator will add your source code with syntax highlight, additionally
-you can add .tex files which will be rendered as latex code.
+you can add .tex files which will be rendered as Latex code.
 
 ## Notes
 
