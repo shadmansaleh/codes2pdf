@@ -48,7 +48,7 @@ you can add .tex files which will be rendered as Latex code.
 
 ## Sample PDF
 
-Here you can find an example: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
+Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
 
 (In the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
 
