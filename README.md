@@ -17,9 +17,13 @@ TeX Live for Windows:
 
     npm install -g codes2pdf
 
+## Update
+
+    npm update -g codes2pdf
+
 ## Use
 
-    Usage: codes2pdf <soruce_dir> [options]
+    Usage: codes2pdf <source_dir> [options]
 
     Auto generate a PDF notebook from your source codes
 
@@ -37,19 +41,18 @@ example:
     codes2pdf ./ /tmp/team_reference.pdf
     codes2pdf ./ --author "Shahid Beheshti University" --initials SBU
 
-The second one will create a 'notebook.pdf' file in the current directory.
+The second one will create a 'notebook.pdf' file in the current directory, from the source code files which are located in the current directory and its subdirectories.
+
+The notebook generator will add your source code with syntax highlighting, additionally
+you can add .tex files which will be rendered as Latex code.
 
 ## Example PDF
 
 Here you can find an example: https://github.com/pin3da/Programming-contest/blob/master/codes/notebook.pdf
+
 (The example file has two columns in each page but in the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
 
-## Files
-
-The notebook generator will add your source code with syntax highlight, additionally
-you can add .tex files which will be rendered as latex code.
-
-## Notes:
+## Notes
 
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
