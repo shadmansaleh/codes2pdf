@@ -46,11 +46,11 @@ The second one will create a 'notebook.pdf' file in the current directory, from 
 The notebook generator will add your source code with syntax highlighting, additionally
 you can add .tex files which will be rendered as Latex code.
 
-## Example PDF
+## Sample PDF
 
-Here you can find an example: https://github.com/pin3da/Programming-contest/blob/master/codes/notebook.pdf
+Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
 
-(The example file has two columns in each page but in the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
+(In the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
 
 ## Notes
 
