@@ -15,6 +15,7 @@ TeX Live for Windows:
     
     
 Also install Node.js and NPM on your machine (you can download them from https://nodejs.org/en/download/).
+
 After installing Node.js on Linux, add this command to your ~/.bashrc:
 
     export PATH="$HOME/.npm_modules/bin:$PATH"
