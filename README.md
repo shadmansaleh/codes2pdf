@@ -7,22 +7,26 @@ This generator works in both Linux and Windows, so check how to install TeX Live
 
 TeX Live for linux:
 
-    aptitude install texlive
+    sudo aptitude install texlive
 
 TeX Live for Windows:
 
     download installer (install-tl-windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
     
     
-Also install Node.js and NPM on your machine.
+Also install Node.js and NPM on your machine (you can download them from https://nodejs.org/en/download/).
+After installing Node.js on Linux, add this command to your ~/.bashrc:
+
+    export PATH="$HOME/.npm_modules/bin:$PATH"
+
 
 ## Install
 
-    npm install -g codes2pdf
+    sudo npm install -g codes2pdf
 
 ## Update
 
-    npm update -g codes2pdf
+    sudo npm update -g codes2pdf
 
 ## Use
 
