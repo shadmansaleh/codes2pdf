@@ -58,10 +58,18 @@ you can add .tex files which will be rendered as Latex code.
 
 Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
 
-(In the forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
+(In this forked version, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages.)
+
+## Sample PDF Screenshots
+
+<img src="https://user-images.githubusercontent.com/7780269/68278548-cd683e00-0086-11ea-9974-1f9e094e90e7.png" width="85%">
+
+<img src="https://user-images.githubusercontent.com/7780269/68278235-271c3880-0086-11ea-95bd-7d12b4b09674.png" width="85%">
+
+<img src="https://user-images.githubusercontent.com/7780269/68278286-3d29f900-0086-11ea-8eb4-3f184341ab2d.png" width="85%">
 
 ## Notes
 
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
-- In the forked version of the repository, the generated notebook will have three columns in each page.
+- In this forked version of the original repository, the generated notebook will have three columns in each page.
