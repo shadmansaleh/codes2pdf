@@ -14,7 +14,7 @@ TeX Live for Windows:
     download installer (install-tl-windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
     
     
-Also install Node.js and NPM on your machine (you can download them from https://nodejs.org/en/download/).
+Also install the <u>latest version</u> of Node.js and NPM on your machine (you can download them from https://nodejs.org/en/download/).
 
 After installing Node.js on Linux, add this command to your ~/.bashrc:
 
