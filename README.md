@@ -73,4 +73,4 @@ Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sa
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
 - In this forked version of the [original repository](https://github.com/pin3da/notebook-generator), the generated notebook will have three columns in each page. This is useful when you have a large number of different source codes and you have a limit on the number of pages for creating a cheatsheet.
-- The original repository was created by [Manuel Pineda](https://github.com/pin3da/) & [Diego Restrepo](https://github.com/Diegores14).
+- The original repository was created by [Manuel Pineda](https://github.com/pin3da/) and [Diego Restrepo](https://github.com/Diegores14).
