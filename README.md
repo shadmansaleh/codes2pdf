@@ -58,7 +58,7 @@ you can add .tex files which will be rendered as Latex code.
 
 Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
 
-(In this forked version of the original repository, the generated notebook file will have three columns in each page; so you can put more source codes in a few number of pages for ACM-ICPC contests.)
+(In this forked version of the original repository, the generated notebook file will have three columns in each page with a smaller font size; so you can put more source codes in a few number of pages for ACM-ICPC contests.)
 
 ## Sample PDF Screenshots
 
@@ -72,5 +72,5 @@ Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sa
 
 - Try to use up to 3 "levels" in your source code.
 - Use spaces insead of underscore (in the filenames) to print a prettier TOC.
-- In this forked version of the [original repository](https://github.com/pin3da/notebook-generator), the generated notebook will have three columns in each page. This is useful when you have a large number of different source codes and there is a limit on the number of pages for creating a cheatsheet.
+- In this forked version of the [original repository](https://github.com/pin3da/notebook-generator), the generated notebook will have three columns in each page with a smaller line spacing. This is useful when you have a large number of different source codes and there is a limit on the number of pages for creating a cheatsheet.
 - The original repository was created by [Manuel Pineda](https://github.com/pin3da/) and [Diego Restrepo](https://github.com/Diegores14).
