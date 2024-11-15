@@ -82,11 +82,12 @@ function pdflatex (doc) {
   return ans
 }
 
-module.exports = function (_path, output, author, initials) {
+module.exports = function (_path, output, author, initials, institute) {
   let template = fs.readFileSync(path.join(__dirname, 'template_header.tex')).toString()
   template = template
     .replace(`\${author}`, author)
     .replace(`\${initials}`, initials)
+    .replaceAll(`\${institute}`, institute)
 
   template += walk(_path, 0)
   template += '\\end{multicols}'

@@ -9,6 +9,7 @@ program
   .description('Auto generate a PDF notebook from your source codes')
   .option('-a --author [name]', 'author\'s name to be added in the notebook')
   .option('-i --initials [initials]', 'initials of the author to be placed in the upper-right corner of all pages')
+  .option('-I --institute [institute]', 'name of the institute to be placed in the center')
   .option('-o --output [filename]', 'output file for the notebook. Default to `./notebook.pdf`')
 
 
@@ -22,4 +23,5 @@ if (program.args.length < 1) {
 program.output = program.output || './notebook.pdf';
 program.author = program.author || '';
 program.initials = program.initials || '';
-codes2pdf(program.args[0], program.output, program.author, program.initials);
+program.institute = program.institute || '';
+codes2pdf(program.args[0], program.output, program.author, program.initials, program.institute);

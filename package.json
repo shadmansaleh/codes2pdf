@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Erfaniaa/codes2pdf.git"
+    "url": "git+https://github.com/shadmansaleh/codes2pdf.git"
   },
   "keywords": [
     "acm-icpc",
@@ -21,9 +21,9 @@
   "author": "Erfan Alimohammadi <erfan.aa@gmail.com> (http://github.com/Erfaniaa)",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/Erfaniaa/codes2pdf/issues"
+    "url": "https://github.com/shadmansaleh/codes2pdf/issues"
   },
-  "homepage": "https://github.com/Erfaniaa/codes2pdf#readme",
+  "homepage": "https://github.com/shadmansaleh/codes2pdf#readme",
   "bin": {
     "codes2pdf": "./bin/codes2pdf"
   },
