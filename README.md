@@ -1,4 +1,5 @@
 # codes2pdf
+
 Auto generate a PDF notebook from your source codes (useful for your ACM-ICPC cheatsheet)
 
 ## Dependencies
@@ -12,22 +13,20 @@ TeX Live for linux:
 TeX Live for Windows:
 
     download installer (install-tl-windows.exe) from https://www.tug.org/texlive/acquire-netinstall.html
-    
-    
+
 Also install the <u>latest version</u> of Node.js and NPM on your machine (you can download them from https://nodejs.org/en/download/).
 
 After installing Node.js on Linux, add this command to your ~/.bashrc:
 
     export PATH="$HOME/.npm_modules/bin:$PATH"
 
-
 ## Install
 
-    sudo npm install -g codes2pdf
+    sudo npm install -g https://github.com/shadmansaleh/codes2pdf
 
 ## Update
 
-    sudo npm update -g codes2pdf
+    sudo npm update -g https://github.com/shadmansaleh/codes2pdf
 
 ## Use
 
@@ -37,17 +36,17 @@ After installing Node.js on Linux, add this command to your ~/.bashrc:
 
     Options:
 
-        -V, --version             output the version number
-        -a --author [name]        author's name to be added in the notebook
-        -i --initials [initials]  initials of the author to be placed in the upper-right corner of all pages
-        -o --output [filename]    output file for the notebook. Default to `./notebook.pdf`
-        -h, --help                output usage information
-
+        -V, --version               output the version number
+        -a --author [name]          author's name to be added in the notebook
+        -i --initials [initials]    initials of the author to be placed in the upper-right corner of all pages
+        -I --institute [institute]  name of the institute to be placed in the center
+        -o --output [filename]      output file for the notebook. Default to `./notebook.pdf`
+        -h, --help                  output usage information
 
 example:
 
     codes2pdf ./ /tmp/team_reference.pdf
-    codes2pdf ./ --author "Shahid Beheshti University" --initials SBU
+    codes2pdf ./ --author "TEAM_SBU" --initials SBU --institute "Shahid Beheshti University"
 
 The second one will create a 'notebook.pdf' file in the current directory, from the source code files which are located in the current directory and its subdirectories.
 
@@ -56,7 +55,7 @@ you can add .tex files which will be rendered as Latex code.
 
 ## Sample PDF
 
-Here you can find a sample: https://github.com/Erfaniaa/codes2pdf/blob/master/sample_notebook.pdf
+Here you can find a sample: https://github.com/shadmansaleh/codes2pdf/blob/master/sample_notebook.pdf
 
 (In this forked version of the original repository, the generated notebook file will have three columns in each page with a smaller font size; so you can put more source codes in a few number of pages for ACM-ICPC contests.)
 
