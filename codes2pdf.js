@@ -7,6 +7,18 @@ const tmp = require('tmp')
 const section = ['\\section{', '\\subsection{', '\\subsubsection{']
 const extensions = ['.cc', '.cpp', '.c', '.java', '.py', '.tex']
 
+function escape_latex(s) {
+  return s
+    .replace(/\\/g, '\\textbackslash{}')
+    .replace(/_/g, '\\_')
+    .replace(/&/g, '\\&')
+    .replace(/%/g, '\\%')
+    .replace(/\$/g, '\\$')
+    .replace(/#/g, '\\#')
+    .replace(/{/g, '\\{')
+    .replace(/}/g, '\\}');
+}
+
 function walk (_path, depth) {
   let ans = ''
   depth = Math.min(depth, section.length - 1)
@@ -17,9 +29,9 @@ function walk (_path, depth) {
     let f = path.resolve(_path, file)
     let stat = fs.lstatSync(f)
     if (stat.isDirectory()) {
-      ans += '\n' + section[depth] + file + '}\n' + walk(f, depth + 1)
+      ans += '\n' + section[depth] + escape_latex(file) + '}\n' + walk(f, depth + 1)
     } else if (extensions.indexOf(path.extname(f)) !== -1) {
-      ans += '\n' + section[depth] + file.split('.')[0] + '}\n'
+      ans += '\n' + section[depth] + escape_latex(file.split('.')[0]) + '}\n'
       if (path.extname(f) !== '.tex') {
         ans += '\\begin{lstlisting}\n' + fs.readFileSync(f) + '\\end{lstlisting}\n'
       } else {
@@ -85,9 +97,9 @@ function pdflatex (doc) {
 module.exports = function (_path, output, author, initials, institute) {
   let template = fs.readFileSync(path.join(__dirname, 'template_header.tex')).toString()
   template = template
-    .replace(`\${author}`, author)
-    .replace(`\${initials}`, initials)
-    .replaceAll(`\${institute}`, institute)
+    .replace(`\${author}`, escape_latex(author))
+    .replace(`\${initials}`, escape_latex(initials))
+    .replaceAll(`\${institute}`, escape_latex(institute))
 
   template += walk(_path, 0)
   template += '\\end{multicols}'
